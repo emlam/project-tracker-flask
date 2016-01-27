@@ -11,9 +11,11 @@ def get_student_form():
     return render_template("student_search.html")
 
 
-@app.route("/student-add")
-def student_add():
-    """Show the page to add a student"""
+###########################
+
+@app.route("/student-add-form")
+def student_add_form():
+    """Show the page with the form to add a student"""
 
     return render_template("student_add.html")
 
